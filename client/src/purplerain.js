@@ -10,7 +10,7 @@ export default class Rain extends Component {
   y = 50
 
   setup = (p5) => {
-    p5.createCanvas(400, 400)
+    p5.createCanvas(500, 500)
     
   
   }
