@@ -10,3 +10,9 @@ p {
 #sketch {
   color: black; 
 }
+
+main {
+  border: red; 
+  display: flex;
+  justify-content: center;
+}
