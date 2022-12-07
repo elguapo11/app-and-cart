@@ -10,13 +10,13 @@ export default class Rain extends Component {
   y = 50
 
   setup = (p5) => {
-    p5.createCanvas(500, 500)
+    p5.createCanvas(300, 300)
     
   
   }
   draw = p5 => {
-    p5.background('rgba(0,255,0, 0.25)')
-    p5.ellipse(this.x, this.y, 150, 70, 80)
+    p5.background('rgba(0,0,0, 0.25)')
+    p5.ellipse(this.x, this.y, 150, 150)
     this.x++  
 
 

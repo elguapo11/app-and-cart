@@ -6,7 +6,7 @@ import  './purplerain.css';
 function App() {
   return (
     <div className="App">
-      <p>Look at me figuring shit out. My name is Seth</p>
+      <p>Look at me figuring shit out</p>
       
     </div>
     

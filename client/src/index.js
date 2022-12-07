@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Rain from './purplerain';
+import Counter from './counter';
 
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Rain />
+    <Counter/>
   </React.StrictMode>
 );
 
