@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Rain from './purplerain';
 import Counter from './counter';
+import PropsEx from './propsEx'; 
+import TextAppear from './textAppear';
 
 
 
@@ -14,6 +16,8 @@ root.render(
     <App />
     <Rain />
     <Counter/>
+    <PropsEx name='Benny' lastname='Mendoza'/>
+    <TextAppear/>
   </React.StrictMode>
 );
 
