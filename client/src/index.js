@@ -16,7 +16,7 @@ root.render(
     <App />
     <Rain />
     <Counter/>
-    <PropsEx name='Benny' lastname='Mendoza'/>
+    <PropsEx name='Benny' lastname='Mendoza' text='is the dopest developer'/>
     <TextAppear/>
   </React.StrictMode>
 );

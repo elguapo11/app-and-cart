@@ -5,8 +5,8 @@ import React from "react"
 export default function PropsEx (props) {
     return (
         <div className="propsEx">
-            <h1>{props.name}</h1>
-            <h2>{props.lastname}</h2>
+            <h1>{props.name} {props.lastname} {props.text}</h1>
+            
         </div>
     )
     }

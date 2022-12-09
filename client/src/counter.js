@@ -8,9 +8,11 @@ export default function Counter() {
     return (
         <div className="counter">
         <button onClick={() => {
-            setCounter(counter + 1); 
 
-        }}>Count up!</button>
+            setCounter(counter + 1); 
+            
+
+        }}>Count up</button>
          
          <button onClick={() => {
             setCounter(counter - 1); 

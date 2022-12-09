@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
 
 app.get("/new", (req, res) => {
   res.json({ message: "second page" });
+  render
   console.log('hitting second page')
 });
 
