@@ -6,7 +6,7 @@ export default function Counter() {
     const [counter, setCounter] = useState(0); 
 
     return (
-        <div>
+        <div className="counter">
         <button onClick={() => {
             setCounter(counter + 1); 
 

@@ -7,10 +7,10 @@ export default function TextAppear() {
 
     return (
         
-        <div>
+        <div className="textAppear">
             
             <input value={text} onChange={e => setText(e.target.value)}></input>
-            <h2>Your text will appear here: {text}</h2>
+            <h2>Your text will appear : {text}</h2>
         </div>
     )
 
