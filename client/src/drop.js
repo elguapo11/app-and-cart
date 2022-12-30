@@ -4,19 +4,27 @@ import Drop from "react-p5";
 
 export default class Droplet extends Component {
    
-        x = 50
-        y = 50
+        x = random
+        y = random
+        z = 100
+        drops = new Drop[100]
+
       
-        setup = (p5, parent) => {
-          p5.createCanvas(500, 500).parent(parent)
+        setup = (p5) => {
+          p5.createCanvas(100, 200)
+         
         }
         draw = p5 => {
-          p5.ellipse(this.x, this.y, 70, 70)
-          this.x++
+          p5.fill('red')
+          p5.rect(20, 200, this.z++)
+
+          // for (let i = 0; i<drops.length; i++ ) {
+          //   drops[i]=new Drop()
+          // } 
+
         }
       
         render() {
           return <Drop setup={this.setup} draw={this.draw} />
         }
       }
-

@@ -8,14 +8,9 @@ p {
 }
 
 #sketch {
-  color: black; 
+  color: gray; 
 }
 
-main {
-  box-sizing: 50px; 
-  display: flex;
-  justify-content: center;
-}
 
 * {
   background-color: lightblue;
