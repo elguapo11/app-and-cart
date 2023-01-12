@@ -3,14 +3,13 @@
 }
 
 p {
-  color: black; 
-  font-size: x-large;
+  color: red;
+  font-size: 55px;
 }
 
 #sketch {
-  color: gray; 
+  color: gray;
 }
-
 
 * {
   background-color: lightblue;

@@ -21,3 +21,27 @@ app.listen(PORT, () => {
     console.log("I'm a successful problem solver")
   });
 
+  // function sum(numbers) {
+  //   let total = 0;
+  
+  //   for (let i = 0; i < numbers.length; i++) {
+  //     total += numbers[i];
+  //   }
+  
+  //   return total;
+  // }
+
+  // let result = sum([1, 2, 3, 4, 5]);
+  // console.log(result); 
+  // this was a ex. from Layne
+
+  let nums = [0,10,2,33,455]
+  console.log(nums)
+
+  function removeEveryOther(arr){
+    return arr.filter(function(element , index) {
+      return index % 2 === 0;
+    });
+  }
+
+console.log(removeEveryOther(nums))
