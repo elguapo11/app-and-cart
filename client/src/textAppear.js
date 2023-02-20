@@ -5,7 +5,7 @@ export default function TextAppear() {
 
   return (
     <div className="textAppear">
-      <h3>Input Text and it will appear below</h3>
+      <h3>Input Text and it will appear right below this line</h3>
       <input values={text} onChange={(e) => setText(e.target.value)}></input>
       <h1>{text}</h1>
     </div>
