@@ -18,7 +18,7 @@ function TodoList() {
   return (
     <div className="ToDo">
       <h1>Todo List</h1>
-      <form onSubmit={handleSubmit}>
+      <form onChange={handleSubmit}>
         <input
           type="text"
           value={newTodo}
@@ -35,6 +35,7 @@ function TodoList() {
         ))}
       </ul>
     </div>
+    
   );
 }
 
