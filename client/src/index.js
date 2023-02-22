@@ -7,6 +7,7 @@ import Rain from './purplerain';
 import Counter from './counter';
 import PropsEx from './propsEx'; 
 import TextAppear from './textAppear';
+import TodoList from './Todo.js'; 
 
 
 
@@ -17,6 +18,7 @@ root.render(
     <App />
     <Rain />
     <Counter/>
+    <TodoList/>
     <PropsEx name='Benny' lastname='Mendoza' text='is the dopest developer'/>
     <TextAppear/>
   </React.StrictMode>
